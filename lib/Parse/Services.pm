@@ -12,7 +12,7 @@ our @EXPORT_OK = qw(parse_services);
 
 our %SPEC;
 
-$SPEC{parse_hosts} = {
+$SPEC{parse_services} = {
     v => 1.1,
     summary => 'Parse /etc/hosts',
     args => {
