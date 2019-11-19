@@ -14,7 +14,7 @@ our %SPEC;
 
 $SPEC{parse_services} = {
     v => 1.1,
-    summary => 'Parse /etc/hosts',
+    summary => 'Parse /etc/services',
     args => {
         content => {
             summary => 'Content of /etc/services file',
